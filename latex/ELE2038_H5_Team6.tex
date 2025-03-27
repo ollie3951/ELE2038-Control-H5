@@ -88,21 +88,11 @@
     \section{Testing Bode's Stability Criterion}
     We know that for a closed loop transfer function to be considered stable, it's corresponding open loop transfer function must meet the conditions outlined in Bode's Stability Criterion. If all conditions are met, then our closed loop system, $G_{cl}$, can be considered BIBO-stable. To verify the first criteria we find the poles of the open-loop system; in the Python notebook it has been shown that the poles all have a negative real part except for one that is at the origin. This satisfies the first criteria. In order to confirm the other criteria, a bode plot of the open-loop system has been plotted in the Python notebook, and from that we can conclude that there are crossover frequencies at $\omega_{\text{co,0}}=63, \; \omega_{\text{co,1}} = 630$, and $\omega_{\text{co,2}} = 1412$. This satisfies criteria 2 while further inspection of the graphs in the Python notebook reveal that $|G_{\text{ol}}(j\omega_{co,k})| < 1$ thus satisfying criteria 3. We can further stress test the system to find the gain and delay margins. In the Python notebook we have calculated that there is a gain margin of $29.5$ dB, delay margin of $0.15$ seconds and a phase margin of $21.6^\circ$. This indicates the system has adequate stability when faced with small time delays, although a larger delay margin would be favourable to make the system more stable.
     
-
     % ===============================
-    \section{Testing for Disturbances}
-    Let us introduce a disturbance in our system with a transfer function:
+    \section{Disturbance Rejection}
+    We will test our system with a disturbance input of $G_d = \frac{K}{\tau s + 1}$ where $K = \tau = 1$. The closed-loop system is shown in Figure \ref{fig:cl_blockDiagram}. The transfer function of the closed-loop system is thus given by
     \begin{equation}
-        G_D = \frac{K}{\tau s + 1}
+        G_{L}(s) = \frac{G_d}{1 + G_c G_a G_\theta G_m}.
     \end{equation}
-    Where $K$ and $\tau$ are constants, for our current analysis $K = \tau =1$.
-
-    \begin{equation}
-        G_{L} = \frac{G_d}{1 + G_aG_sG_mG_c}
-    \end{equation}
-
-    % \begin{center}
-    % \includegraphics[scale = 0.5]{Disturbances_Plot.jpg}
-    % \\ \caption{Figure 4: Impulse and Step Response of $G_L$}
-    % \end{center}
+    Evaluating poles we find that there are two poles at the origin therefore meaning that the load trasfer function is not BIBO stable.
 \end{document}
