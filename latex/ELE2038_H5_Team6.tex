@@ -3,7 +3,7 @@
 %-------------------------------%
 % Commands and packages
 \usepackage{amsmath,amssymb,bm,physics,graphicx,hyperref}
-\usepackage[left=5mm, right=5mm, top=10mm, bottom=10mm]{geometry}
+\usepackage[left=5mm, right=5mm, top=5mm, bottom=10mm]{geometry}
 \usepackage{subcaption}
 \usepackage[backend=biber, style=ieee]{biblatex}
 
@@ -40,12 +40,21 @@
             G_{m}(s)=\frac{e^{-0.0063s}}{0.0021s+1}. \label{eq:tf_sensor}
         \end{align}
     \end{subequations}
-    We assume that the system has zero initial conditions when determining these transfer functions. Given the transfer functions of the actuator, Equation (\ref{eq:tf_actuator}) and sensor, Equation (\ref{eq:tf_sensor}) in this system, we can find that the poles of both have negative real parts $s = -\frac{1}{0.0145}$, $s=-\frac{1}{0.0021}$ respectively; and are therefore stable. Since the open-loop system is the cascade of the actuator, aircraft dynamics, and sensor as shown in the block diagram in Figure \ref{fig:blockDiagram}. Provided the transfer function relating to the aircraft dynamics ($G_{\alpha}, G_{r}, G_{\theta}$) has only poles with negative real parts, the open-loop system will be stable.
+    We assume that the system has zero initial conditions when determining these transfer functions. Given the transfer functions of the actuator, Equation (\ref{eq:tf_actuator}) and sensor, Equation (\ref{eq:tf_sensor}) in this system, we can find that the poles of both have negative real parts $s = -\frac{1}{0.0145}$, $s=-\frac{1}{0.0021}$ respectively; and are therefore stable. Since the open-loop system is the cascade of the actuator, aircraft dynamics, and sensor as shown in the block diagram in Figure \ref{fig:ol_blockDiagram}. Provided the transfer function relating to the aircraft dynamics ($G_{\alpha}, G_{r}, G_{\theta}$) has only poles with negative real parts, the open-loop system will be stable.
     \begin{figure}[h]
-        \centering
-        \includegraphics[width = 0.5\textwidth]{figs/ELE2038_H5.drawio.png}
-        \caption{A block diagram of the control system.}
-        \label{fig:blockDiagram}
+        \begin{subfigure}[h]{0.5\textwidth}
+            \centering
+            \includegraphics[width = \textwidth]{figs/ELE2038_H5_openLoopBlockDiagram.drawio.png}
+            \caption{A block diagram of the open loop control system.}
+            \label{fig:ol_blockDiagram}            
+        \end{subfigure}%
+        \begin{subfigure}[h]{0.5\textwidth}
+            \centering
+            \includegraphics[width = \textwidth]{figs/ELE2038_H5_closedLoopBlockDiagram.drawio.png}
+            \caption{A block diagram of the closed loop control system.}
+            \label{fig:cl_blockDiagram}
+        \end{subfigure}
+    \caption{Block diagrams of the open and closed loop control systems.}
     \end{figure}
     
     \subsection{Analysis of $G_{\alpha}, G_{r}, G_{\theta}$.}
@@ -74,5 +83,25 @@
         \end{subfigure}
     \caption{Output plots of $G_\theta$.}
     \end{figure}
-    Figure \ref{fig:gThetaImpRes} shows that when the deflection angle of the elevators $\delta$ is a unit impulse, the pitch angle $\theta$ of the aircraft reaches a maximum of roughly 45 degrees after 1.5 seconds, before stabilising at (roughly) 7.5 degrees after around 16 seconds. Note that despite the input being a unit impulse, the pitch angle does not return to zero for the open-loop system.    Figure \ref{fig:gThetaStepRes} shows that as time increases, pitch angle $\theta$ is increasing unbounded. This follows from the prior discovery that $G_{\theta(\text{open-loop})}$ is not BIBO stable. The frequency response of $G_\theta$ is plotted along with the impulse, step and frequency responses of $G_\alpha$ and $G_r$ in the attached Python notebook.    
+    Figure \ref{fig:gThetaImpRes} shows that when the deflection angle of the elevators $\delta$ is a unit impulse, the pitch angle $\theta$ of the aircraft reaches a maximum of roughly 45 degrees after 1.5 seconds, before stabilising at (roughly) 7.5 degrees after around 16 seconds. Note that despite the input being a unit impulse, the pitch angle does not return to zero for the open-loop system.    Figure \ref{fig:gThetaStepRes} shows that as time increases, pitch angle $\theta$ is increasing unbounded. This follows from the prior discovery that $G_{\theta(\text{open-loop})}$ is not BIBO stable. The frequency response of $G_\theta$ is plotted along with the impulse, step and frequency responses of $G_\alpha$ and $G_r$ in the attached Python notebook.
+
+    % ===============================
+    \section{Testing Bode's Stability Criterion}
+    We know that for a closed loop transfer function to be considered stable, it's corresponding open loop transfer function must meet the following conditions outlined in Bode's Stability Criterion. If all conditions are met, then our closed loop system, $G_{cl}$, can be considered BIBO-stable. We already know that the first criteria has been met due to our earlier analysis, in order to confirm the other conditions, we will need to plot a bode plot of our open-loop system. This has been done in the attached Python notebook and from that analysis we can conclude that there is a phase crossover frequency at $-\pi$ which is $<1$ which matches both criteria 2 and 3. Therefore, we can conclude that our closed loop transfer function is BIBO-Stable.
+
+    \section{Testing for Disturbances}
+    Let us introduce a disturbance in our system with a transfer function:
+    \begin{equation}
+        G_D = \frac{K}{\tau s + 1}
+    \end{equation}
+    Where $K$ and $\tau$ are constants, for our current analysis $K = \tau =1$.
+
+    \begin{equation}
+        G_{L} = \frac{G_d}{1 + G_aG_sG_mG_c}
+    \end{equation}
+
+    % \begin{center}
+    % \includegraphics[scale = 0.5]{Disturbances_Plot.jpg}
+    % \\ \caption{Figure 4: Impulse and Step Response of $G_L$}
+    % \end{center}
 \end{document}
