@@ -3,7 +3,7 @@
 %-------------------------------%
 % Commands and packages
 \usepackage{amsmath,amssymb,bm,physics,graphicx,hyperref}
-\usepackage[left=5mm, right=5mm, top=5mm, bottom=10mm]{geometry}
+\usepackage[left=5mm, right=5mm, top=5mm, bottom=20mm]{geometry}
 \usepackage{subcaption}
 \usepackage[backend=biber, style=ieee]{biblatex}
 
@@ -84,11 +84,12 @@
     \caption{Output plots of $G_\theta$.}
     \end{figure}
     Figure \ref{fig:gThetaImpRes} shows that when the deflection angle of the elevators $\delta$ is a unit impulse, the pitch angle $\theta$ of the aircraft reaches a maximum of roughly 45 degrees after 1.5 seconds, before stabilising at (roughly) 7.5 degrees after around 16 seconds. Note that despite the input being a unit impulse, the pitch angle does not return to zero for the open-loop system.    Figure \ref{fig:gThetaStepRes} shows that as time increases, pitch angle $\theta$ is increasing unbounded. This follows from the prior discovery that $G_{\theta(\text{open-loop})}$ is not BIBO stable. The frequency response of $G_\theta$ is plotted along with the impulse, step and frequency responses of $G_\alpha$ and $G_r$ in the attached Python notebook.
-
     % ===============================
     \section{Testing Bode's Stability Criterion}
-    We know that for a closed loop transfer function to be considered stable, it's corresponding open loop transfer function must meet the following conditions outlined in Bode's Stability Criterion. If all conditions are met, then our closed loop system, $G_{cl}$, can be considered BIBO-stable. We already know that the first criteria has been met due to our earlier analysis, in order to confirm the other conditions, we will need to plot a bode plot of our open-loop system. This has been done in the attached Python notebook and from that analysis we can conclude that there is a phase crossover frequency at $-\pi$ which is $<1$ which matches both criteria 2 and 3. Therefore, we can conclude that our closed loop transfer function is BIBO-Stable.
+    We know that for a closed loop transfer function to be considered stable, it's corresponding open loop transfer function must meet the conditions outlined in Bode's Stability Criterion. If all conditions are met, then our closed loop system, $G_{cl}$, can be considered BIBO-stable. To verify the first criteria we find the poles of the open-loop system; in the Python notebook it has been shown that the poles all have a negative real part except for one that is at the origin. This satisfies the first criteria. In order to confirm the other criteria, a bode plot of the open-loop system has been plotted in the Python notebook, and from that we can conclude that there are crossover frequencies at $\omega_{\text{co,0}}=63, \; \omega_{\text{co,1}} = 630$, and $\omega_{\text{co,2}} = 1412$. This satisfies criteria 2 while further inspection of the graphs in the Python notebook reveal that $|G_{\text{ol}}(j\omega_{co,k})| < 1$ thus satisfying criteria 3. We can further stress test the system to find the gain and delay margins. In the Python notebook we have calculated that there is a gain margin of $29.5$ dB, delay margin of $0.15$ seconds and a phase margin of $21.6^\circ$. This indicates the system has adequate stability when faced with small time delays, although a larger delay margin would be favourable to make the system more stable.
+    
 
+    % ===============================
     \section{Testing for Disturbances}
     Let us introduce a disturbance in our system with a transfer function:
     \begin{equation}
