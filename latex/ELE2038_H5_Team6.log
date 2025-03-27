@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.28)  26 MAR 2025 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.28)  27 MAR 2025 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/davem/OneDrive - Queen's University Belfast/Documents/QUB/ELE2038_SignalsAndControl/H5/report/ELE2038_H5_Team6.tex"
-(c:/Users/davem/OneDrive - Queen's University Belfast/Documents/QUB/ELE2038_SignalsAndControl/H5/report/ELE2038_H5_Team6.tex
+**"c:/Users/davem/OneDrive - Queen's University Belfast/Documents/QUB/ELE2038_SignalsAndControl/H5/report/latex/ELE2038_H5_Team6.tex"
+(c:/Users/davem/OneDrive - Queen's University Belfast/Documents/QUB/ELE2038_SignalsAndControl/H5/report/latex/ELE2038_H5_Team6.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
 (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -241,83 +241,100 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip54
-) (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+) (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count295
+\Gm@cntv=\count296
+\c@Gm@tempcnt=\count297
+\Gm@bindingoffset=\dimen157
+\Gm@wd@mp=\dimen158
+\Gm@odd@mp=\dimen159
+\Gm@even@mp=\dimen160
+\Gm@layoutwidth=\dimen161
+\Gm@layoutheight=\dimen162
+\Gm@layouthoffset=\dimen163
+\Gm@layoutvoffset=\dimen164
+\Gm@dimlist=\toks23
+ (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen157
-\captionmargin=\dimen158
-\caption@leftmargin=\dimen159
-\caption@rightmargin=\dimen160
-\caption@width=\dimen161
-\caption@indent=\dimen162
-\caption@parindent=\dimen163
-\caption@hangindent=\dimen164
+\caption@tempdima=\dimen165
+\captionmargin=\dimen166
+\caption@leftmargin=\dimen167
+\caption@rightmargin=\dimen168
+\caption@width=\dimen169
+\caption@indent=\dimen170
+\caption@parindent=\dimen171
+\caption@hangindent=\dimen172
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count295
-\c@continuedfloat=\count296
+\c@caption@flags=\count298
+\c@continuedfloat=\count299
 Package caption Info: hyperref package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count297
+\c@subfigure=\count300
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count298
+\c@subtable=\count301
 ) (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count299
+\lrq@indent=\count302
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count300
-\c@listtotal=\count301
-\c@listcount=\count302
-\c@liststart=\count303
-\c@liststop=\count304
-\c@citecount=\count305
-\c@citetotal=\count306
-\c@multicitecount=\count307
-\c@multicitetotal=\count308
-\c@instcount=\count309
-\c@maxnames=\count310
-\c@minnames=\count311
-\c@maxitems=\count312
-\c@minitems=\count313
-\c@citecounter=\count314
-\c@maxcitecounter=\count315
-\c@savedcitecounter=\count316
-\c@uniquelist=\count317
-\c@uniquename=\count318
-\c@refsection=\count319
-\c@refsegment=\count320
-\c@maxextratitle=\count321
-\c@maxextratitleyear=\count322
-\c@maxextraname=\count323
-\c@maxextradate=\count324
-\c@maxextraalpha=\count325
-\c@abbrvpenalty=\count326
-\c@highnamepenalty=\count327
-\c@lownamepenalty=\count328
-\c@maxparens=\count329
-\c@parenlevel=\count330
-\blx@tempcnta=\count331
-\blx@tempcntb=\count332
-\blx@tempcntc=\count333
-\c@blx@maxsection=\count334
-\blx@maxsegment@0=\count335
-\blx@notetype=\count336
-\blx@parenlevel@text=\count337
-\blx@parenlevel@foot=\count338
-\blx@sectionciteorder@0=\count339
-\blx@sectionciteorderinternal@0=\count340
-\blx@entrysetcounter=\count341
-\blx@biblioinstance=\count342
+\c@tabx@nest=\count303
+\c@listtotal=\count304
+\c@listcount=\count305
+\c@liststart=\count306
+\c@liststop=\count307
+\c@citecount=\count308
+\c@citetotal=\count309
+\c@multicitecount=\count310
+\c@multicitetotal=\count311
+\c@instcount=\count312
+\c@maxnames=\count313
+\c@minnames=\count314
+\c@maxitems=\count315
+\c@minitems=\count316
+\c@citecounter=\count317
+\c@maxcitecounter=\count318
+\c@savedcitecounter=\count319
+\c@uniquelist=\count320
+\c@uniquename=\count321
+\c@refsection=\count322
+\c@refsegment=\count323
+\c@maxextratitle=\count324
+\c@maxextratitleyear=\count325
+\c@maxextraname=\count326
+\c@maxextradate=\count327
+\c@maxextraalpha=\count328
+\c@abbrvpenalty=\count329
+\c@highnamepenalty=\count330
+\c@lownamepenalty=\count331
+\c@maxparens=\count332
+\c@parenlevel=\count333
+\blx@tempcnta=\count334
+\blx@tempcntb=\count335
+\blx@tempcntc=\count336
+\c@blx@maxsection=\count337
+\blx@maxsegment@0=\count338
+\blx@notetype=\count339
+\blx@parenlevel@text=\count340
+\blx@parenlevel@foot=\count341
+\blx@sectionciteorder@0=\count342
+\blx@sectionciteorderinternal@0=\count343
+\blx@entrysetcounter=\count344
+\blx@biblioinstance=\count345
 \labelnumberwidth=\skip55
 \labelalphawidth=\skip56
 \biblabelsep=\skip57
@@ -329,9 +346,9 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language79
-\c@mincomprange=\count343
-\c@maxcomprange=\count344
-\c@mincompwidth=\count345
+\c@mincomprange=\count346
+\c@maxcomprange=\count347
+\c@mincompwidth=\count348
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -341,74 +358,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count346
-\c@savedafterword=\count347
-\c@annotator=\count348
-\c@savedannotator=\count349
-\c@author=\count350
-\c@savedauthor=\count351
-\c@bookauthor=\count352
-\c@savedbookauthor=\count353
-\c@commentator=\count354
-\c@savedcommentator=\count355
-\c@editor=\count356
-\c@savededitor=\count357
-\c@editora=\count358
-\c@savededitora=\count359
-\c@editorb=\count360
-\c@savededitorb=\count361
-\c@editorc=\count362
-\c@savededitorc=\count363
-\c@foreword=\count364
-\c@savedforeword=\count365
-\c@holder=\count366
-\c@savedholder=\count367
-\c@introduction=\count368
-\c@savedintroduction=\count369
-\c@namea=\count370
-\c@savednamea=\count371
-\c@nameb=\count372
-\c@savednameb=\count373
-\c@namec=\count374
-\c@savednamec=\count375
-\c@translator=\count376
-\c@savedtranslator=\count377
-\c@shortauthor=\count378
-\c@savedshortauthor=\count379
-\c@shorteditor=\count380
-\c@savedshorteditor=\count381
-\c@labelname=\count382
-\c@savedlabelname=\count383
-\c@institution=\count384
-\c@savedinstitution=\count385
-\c@lista=\count386
-\c@savedlista=\count387
-\c@listb=\count388
-\c@savedlistb=\count389
-\c@listc=\count390
-\c@savedlistc=\count391
-\c@listd=\count392
-\c@savedlistd=\count393
-\c@liste=\count394
-\c@savedliste=\count395
-\c@listf=\count396
-\c@savedlistf=\count397
-\c@location=\count398
-\c@savedlocation=\count399
-\c@organization=\count400
-\c@savedorganization=\count401
-\c@origlocation=\count402
-\c@savedoriglocation=\count403
-\c@origpublisher=\count404
-\c@savedorigpublisher=\count405
-\c@publisher=\count406
-\c@savedpublisher=\count407
-\c@language=\count408
-\c@savedlanguage=\count409
-\c@origlanguage=\count410
-\c@savedoriglanguage=\count411
-\c@pageref=\count412
-\c@savedpageref=\count413
+\c@afterword=\count349
+\c@savedafterword=\count350
+\c@annotator=\count351
+\c@savedannotator=\count352
+\c@author=\count353
+\c@savedauthor=\count354
+\c@bookauthor=\count355
+\c@savedbookauthor=\count356
+\c@commentator=\count357
+\c@savedcommentator=\count358
+\c@editor=\count359
+\c@savededitor=\count360
+\c@editora=\count361
+\c@savededitora=\count362
+\c@editorb=\count363
+\c@savededitorb=\count364
+\c@editorc=\count365
+\c@savededitorc=\count366
+\c@foreword=\count367
+\c@savedforeword=\count368
+\c@holder=\count369
+\c@savedholder=\count370
+\c@introduction=\count371
+\c@savedintroduction=\count372
+\c@namea=\count373
+\c@savednamea=\count374
+\c@nameb=\count375
+\c@savednameb=\count376
+\c@namec=\count377
+\c@savednamec=\count378
+\c@translator=\count379
+\c@savedtranslator=\count380
+\c@shortauthor=\count381
+\c@savedshortauthor=\count382
+\c@shorteditor=\count383
+\c@savedshorteditor=\count384
+\c@labelname=\count385
+\c@savedlabelname=\count386
+\c@institution=\count387
+\c@savedinstitution=\count388
+\c@lista=\count389
+\c@savedlista=\count390
+\c@listb=\count391
+\c@savedlistb=\count392
+\c@listc=\count393
+\c@savedlistc=\count394
+\c@listd=\count395
+\c@savedlistd=\count396
+\c@liste=\count397
+\c@savedliste=\count398
+\c@listf=\count399
+\c@savedlistf=\count400
+\c@location=\count401
+\c@savedlocation=\count402
+\c@organization=\count403
+\c@savedorganization=\count404
+\c@origlocation=\count405
+\c@savedoriglocation=\count406
+\c@origpublisher=\count407
+\c@savedorigpublisher=\count408
+\c@publisher=\count409
+\c@savedpublisher=\count410
+\c@language=\count411
+\c@savedlanguage=\count412
+\c@origlanguage=\count413
+\c@savedoriglanguage=\count414
+\c@pageref=\count415
+\c@savedpageref=\count416
 \shorthandwidth=\skip63
 \shortjournalwidth=\skip64
 \shortserieswidth=\skip65
@@ -432,19 +449,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count414
-\c@textcitetotal=\count415
-\c@textcitemaxnames=\count416
-\c@biburlbigbreakpenalty=\count417
-\c@biburlbreakpenalty=\count418
-\c@biburlnumpenalty=\count419
-\c@biburlucpenalty=\count420
-\c@biburllcpenalty=\count421
+\c@textcitecount=\count417
+\c@textcitetotal=\count418
+\c@textcitemaxnames=\count419
+\c@biburlbigbreakpenalty=\count420
+\c@biburlbreakpenalty=\count421
+\c@biburlnumpenalty=\count422
+\c@biburlucpenalty=\count423
+\c@biburllcpenalty=\count424
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count422
+\c@smartand=\count425
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -462,8 +479,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count423
-\c@bbx:relatedtotal=\count424
+\c@bbx:relatedcount=\count426
+\c@bbx:relatedtotal=\count427
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -498,43 +515,43 @@ Package biblatex Info: ... and expl3
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 14.
-\@quotelevel=\count425
-\@quotereset=\count426
+Package hyperref Info: Option `colorlinks' set `true' on input line 15.
+\@quotelevel=\count428
+\@quotereset=\count429
  (ELE2038_H5_Team6.aux)
 \openout1 = `ELE2038_H5_Team6.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count427
-\scratchdimen=\dimen165
+\scratchcounter=\count430
+\scratchdimen=\dimen173
 \scratchbox=\box55
-\nofMPsegments=\count428
-\nofMParguments=\count429
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count430
-\MPscratchDim=\dimen166
-\MPnumerator=\count431
-\makeMPintoPDFobject=\count432
-\everyMPtoPDFconversion=\toks24
+\nofMPsegments=\count431
+\nofMParguments=\count432
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count433
+\MPscratchDim=\dimen174
+\MPnumerator=\count434
+\makeMPintoPDFobject=\count435
+\everyMPtoPDFconversion=\toks25
 ) (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -547,16 +564,51 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 18.
+Package hyperref Info: Link coloring ON on input line 19.
  (ELE2038_H5_Team6.out) (ELE2038_H5_Team6.out)
 \@outlinefile=\write4
 \openout4 = `ELE2038_H5_Team6.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(14.22636pt, 569.05515pt, 14.22636pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=569.05515pt
+* \textheight=788.14136pt
+* \oddsidemargin=-58.04362pt
+* \evensidemargin=-58.04362pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
- (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+(C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -567,70 +619,67 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ELE2038_H5_Team6.bbl' found.
  (ELE2038_H5_Team6.bbl)
-Package biblatex Info: Reference section=0 on input line 18.
-Package biblatex Info: Reference segment=0 on input line 18.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <figs/ELE2038_H5.drawio.png, id=14, 611.28375pt x 314.17375pt>
 File: figs/ELE2038_H5.drawio.png Graphic file (type png)
 <use figs/ELE2038_H5.drawio.png>
-Package pdftex.def Info: figs/ELE2038_H5.drawio.png  used on input line 49.
-(pdftex.def)             Requested size: 258.75pt x 132.98276pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package pdftex.def Info: figs/ELE2038_H5.drawio.png  used on input line 46.
+(pdftex.def)             Requested size: 284.52757pt x 146.2331pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 54.
+(hyperref)                removing `math shift' on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 54.
+(hyperref)                removing `subscript' on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 54.
+(hyperref)                removing `\alpha' on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 54.
+(hyperref)                removing `subscript' on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 54.
+(hyperref)                removing `subscript' on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 54.
+(hyperref)                removing `\theta' on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 54.
+(hyperref)                removing `math shift' on input line 51.
 
 <figs/GthetaImpRes.png, id=16, 417.7206pt x 328.8285pt>
 File: figs/GthetaImpRes.png Graphic file (type png)
 <use figs/GthetaImpRes.png>
-Package pdftex.def Info: figs/GthetaImpRes.png  used on input line 68.
-(pdftex.def)             Requested size: 172.5pt x 135.78893pt.
+Package pdftex.def Info: figs/GthetaImpRes.png  used on input line 65.
+(pdftex.def)             Requested size: 284.52757pt x 223.97673pt.
 <figs/GthetaStepRes.png, id=17, 412.6617pt x 328.8285pt>
 File: figs/GthetaStepRes.png Graphic file (type png)
 <use figs/GthetaStepRes.png>
-Package pdftex.def Info: figs/GthetaStepRes.png  used on input line 74.
-(pdftex.def)             Requested size: 172.5pt x 137.45474pt.
+Package pdftex.def Info: figs/GthetaStepRes.png  used on input line 71.
+(pdftex.def)             Requested size: 284.52757pt x 226.72633pt.
 
 
 [1
 
-{C:/Users/davem/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/davem/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figs/ELE2038_H5.drawio.png>]
 
-[2 <./figs/ELE2038_H5.drawio.png> <./figs/GthetaImpRes.png> <./figs/GthetaStepRes.png>] (ELE2038_H5_Team6.aux)
+[2 <./figs/GthetaImpRes.png> <./figs/GthetaStepRes.png>] (ELE2038_H5_Team6.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -642,17 +691,17 @@ Package logreq Info: Writing requests to 'ELE2038_H5_Team6.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18965 strings out of 473536
- 330632 string characters out of 5714956
- 1160241 words of memory out of 5000000
- 41949 multiletter control sequences out of 15000+600000
+ 19444 strings out of 473536
+ 338275 string characters out of 5714956
+ 1172710 words of memory out of 5000000
+ 42428 multiletter control sequences out of 15000+600000
  573778 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,9n,93p,910b,805s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,9n,93p,916b,805s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on ELE2038_H5_Team6.pdf (2 pages, 217346 bytes).
+Output written on ELE2038_H5_Team6.pdf (2 pages, 216066 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
  32 words of extra memory for PDF output out of 10000 (max. 10000000)
 

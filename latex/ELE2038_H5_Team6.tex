@@ -3,6 +3,7 @@
 %-------------------------------%
 % Commands and packages
 \usepackage{amsmath,amssymb,bm,physics,graphicx,hyperref}
+\usepackage[left=5mm, right=5mm, top=10mm, bottom=10mm]{geometry}
 \usepackage{subcaption}
 \usepackage[backend=biber, style=ieee]{biblatex}
 
@@ -20,21 +21,17 @@
     \numberwithin{table}{section}
     \section{Dynamic System Analysis}
     The aircraft system dynamics is described by the following set of differential equations (which are linear and already in state space representation). State variables are $\alpha, r, \theta$ and input variable is $\delta$.
-    \begin{subequations}
-        \begin{align}
-            \dot{\alpha} =& -0.31\alpha + 57.4r +0.232\delta, \\
-            \dot{r} =& -0.016\alpha-0.425r+0.0203\delta, \\
-            \dot{\theta} =& 56.7r.
-        \end{align}
-    \end{subequations}
+    \begin{equation*}
+        \dot{\alpha} = -0.31\alpha + 57.4r +0.232\delta, \quad
+        \dot{r} = -0.016\alpha-0.425r+0.0203\delta, \quad
+        \dot{\theta} = 56.7r.
+    \end{equation*}
     The 3 transfer functions describing aircraft system dynamics:
-    \begin{subequations}
-        \begin{align}
-            G_{\alpha}(s) =& \frac{A(s)}{\Delta(s)}, \\
-            G_{r}(s) =& \frac{R(s)}{\Delta(s)}, \\
-            G_{\theta}(s) =& \frac{\Theta(s)}{\Delta(s)}.
-        \end{align}
-    \end{subequations}
+    \begin{equation*}
+        G_{\alpha}(s) = \frac{A(s)}{\Delta(s)}, \quad
+        G_{r}(s) = \frac{R(s)}{\Delta(s)}, \quad
+        G_{\theta}(s) = \frac{\Theta(s)}{\Delta(s)}.
+    \end{equation*}
     For open-loop dynamics, we must take into account the impact of the actuator and sensor. From the question sheet, we know the actuator has transfer function
     \begin{subequations}
         \begin{align}
@@ -46,7 +43,7 @@
     We assume that the system has zero initial conditions when determining these transfer functions. Given the transfer functions of the actuator, Equation (\ref{eq:tf_actuator}) and sensor, Equation (\ref{eq:tf_sensor}) in this system, we can find that the poles of both have negative real parts $s = -\frac{1}{0.0145}$, $s=-\frac{1}{0.0021}$ respectively; and are therefore stable. Since the open-loop system is the cascade of the actuator, aircraft dynamics, and sensor as shown in the block diagram in Figure \ref{fig:blockDiagram}. Provided the transfer function relating to the aircraft dynamics ($G_{\alpha}, G_{r}, G_{\theta}$) has only poles with negative real parts, the open-loop system will be stable.
     \begin{figure}[h]
         \centering
-        \includegraphics[width = 0.75\textwidth]{figs/ELE2038_H5.drawio.png}
+        \includegraphics[width = 0.5\textwidth]{figs/ELE2038_H5.drawio.png}
         \caption{A block diagram of the control system.}
         \label{fig:blockDiagram}
     \end{figure}
