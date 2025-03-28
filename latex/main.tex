@@ -110,13 +110,11 @@
     \section{Bode Stability Criterion and Stability Margins}
     For a closed-loop transfer function to be BIBO stable, the corresponding open-loop transfer function must meet the conditions outlined in Bode Stability Criterion \cite[Theorem 11.6]{textbook}. To verify the first criteria, we find the poles of the open-loop system; in the Python notebook \cite{python_notebook} it has been shown that the poles all have a negative real part except for one that is at the origin, satisfying the first criteria. To confirm the other criteria, Bode plots of the open-loop system are included in the Python notebook \cite{python_notebook}, from which we can conclude that there are crossover frequencies at $\omega_{\text{co,0}}=63, \; \omega_{\text{co,1}} = 630$, and $\omega_{\text{co,2}} = 1412$; satisfying criteria 2. By further inspection of the Bode plots we see that $|G_{\text{ol}}(j\omega_{co,k})| < 1$ for $k=0, 1, 2$ satisfying criteria 3. All 3 criterion are satisfied, therefore the proposed closed-loop system is BIBO stable. 
     
-    
     In the Python notebook \cite{python_notebook}, we have used Bode plots while applying various different values of additional gain and time delay to the system to find $\text{gain margin GM} = 29.5$ dB, $\text{delay margin DM} = 0.15$ seconds, and $\text{phase margin PM} = \omega_g\text{DM}=21.6^\circ$, where $\omega_g=2.51$ is the frequency in the Bode plot which satisfies $|G_{\text{ol}}(j\omega_g)|=1$. The system is stable even when a large additional gain is introduced, and has adequate stability when faced with small time delays, although a larger delay margin would be advantageous to make the system less likely to become unstable when additional time delay arises.
 
     \thispagestyle{empty}
 
-    % BIBLIOGRAPHY %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % BIBLIOGRAPHY %
     \bibliographystyle{IEEEtran}
     \bibliography{references.bib}
-    
 \end{document}

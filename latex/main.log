@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.28)  28 MAR 2025 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.28)  28 MAR 2025 01:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -336,6 +336,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 28.
+ (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -384,129 +385,61 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Reference `fig:ol_blockDiagram' on page 1 undefined on input line 43.
-
-
-LaTeX Warning: Citation `textbook' on page 1 undefined on input line 43.
-
-<figs/ELE2038_H5_openLoopBlockDiagram.drawio.jpg, id=3, 459.21562pt x 235.63031pt>
+<figs/ELE2038_H5_openLoopBlockDiagram.drawio.jpg, id=21, 459.21562pt x 235.63031pt>
 File: figs/ELE2038_H5_openLoopBlockDiagram.drawio.jpg Graphic file (type jpg)
 <use figs/ELE2038_H5_openLoopBlockDiagram.drawio.jpg>
 Package pdftex.def Info: figs/ELE2038_H5_openLoopBlockDiagram.drawio.jpg  used on input line 47.
 (pdftex.def)             Requested size: 284.52757pt x 146.00299pt.
-<figs/ELE2038_H5_closedLoopBlockDiagram.drawio.jpg, id=4, 609.02531pt x 280.79906pt>
+<figs/ELE2038_H5_closedLoopBlockDiagram.drawio.jpg, id=22, 609.02531pt x 280.79906pt>
 File: figs/ELE2038_H5_closedLoopBlockDiagram.drawio.jpg Graphic file (type jpg)
 <use figs/ELE2038_H5_closedLoopBlockDiagram.drawio.jpg>
 Package pdftex.def Info: figs/ELE2038_H5_closedLoopBlockDiagram.drawio.jpg  used on input line 53.
 (pdftex.def)             Requested size: 284.52757pt x 131.1872pt.
-
-LaTeX Warning: Reference `Sec1' on page 1 undefined on input line 60.
-
-
-LaTeX Warning: Citation `python_notebook' on page 1 undefined on input line 68.
-
-<figs/GthetaImpRes.png, id=5, 417.7206pt x 330.2739pt>
+<figs/GthetaImpRes.png, id=25, 417.7206pt x 330.2739pt>
 File: figs/GthetaImpRes.png Graphic file (type png)
 <use figs/GthetaImpRes.png>
 Package pdftex.def Info: figs/GthetaImpRes.png  used on input line 75.
 (pdftex.def)             Requested size: 199.17276pt x 157.47638pt.
-<figs/GthetaStepRes.png, id=7, 412.6617pt x 330.2739pt>
+<figs/GthetaStepRes.png, id=27, 412.6617pt x 330.2739pt>
 File: figs/GthetaStepRes.png Graphic file (type png)
 <use figs/GthetaStepRes.png>
 Package pdftex.def Info: figs/GthetaStepRes.png  used on input line 81.
 (pdftex.def)             Requested size: 199.17276pt x 159.40654pt.
-
-LaTeX Warning: Reference `fig:gThetaImpRes' on page 1 undefined on input line 89.
-
-
-LaTeX Warning: Reference `fig:gThetaStepRes' on page 1 undefined on input line 89.
-
-
-LaTeX Warning: Citation `python_notebook' on page 1 undefined on input line 89.
-
-
-LaTeX Warning: Reference `fig:cl_blockDiagram' on page 1 undefined on input line 92.
-
-
-LaTeX Warning: Citation `textbook' on page 1 undefined on input line 92.
-
-
-LaTeX Warning: Citation `textbook' on page 1 undefined on input line 92.
-
-
-LaTeX Warning: Citation `python_notebook' on page 1 undefined on input line 92.
-
-<figs/Fig3CLTFImpStep.png, id=8, 424.2249pt x 328.8285pt>
+<figs/Fig3CLTFImpStep.png, id=35, 424.2249pt x 328.8285pt>
 File: figs/Fig3CLTFImpStep.png Graphic file (type png)
 <use figs/Fig3CLTFImpStep.png>
 Package pdftex.def Info: figs/Fig3CLTFImpStep.png  used on input line 96.
 (pdftex.def)             Requested size: 199.17276pt x 154.38383pt.
 
-LaTeX Warning: Citation `python_notebook' on page 1 undefined on input line 101.
-
-
-LaTeX Warning: Reference `fig:3' on page 1 undefined on input line 101.
-
-
-LaTeX Warning: Reference `fig:cl_blockDiagram' on page 1 undefined on input line 104.
-
-
 
 [1
 
-{C:/Users/davem/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figs/ELE2038_H5_openLoopBlockDiagram.drawio.jpg> <./figs/ELE2038_H5_closedLoopBlockDiagram.drawio.jpg>]
-
-LaTeX Warning: Citation `python_notebook' on page 2 undefined on input line 108.
-
-
-LaTeX Warning: Citation `textbook' on page 2 undefined on input line 111.
-
-
-LaTeX Warning: Citation `python_notebook' on page 2 undefined on input line 111.
-
-
-LaTeX Warning: Citation `python_notebook' on page 2 undefined on input line 111.
-
-
-LaTeX Warning: Citation `python_notebook' on page 2 undefined on input line 114.
-
-No file main.bbl.
-
+{C:/Users/davem/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figs/ELE2038_H5_openLoopBlockDiagram.drawio.jpg> <./figs/ELE2038_H5_closedLoopBlockDiagram.drawio.jpg>] (main.bbl
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `eng'. Using the pattern for
+** the default language instead.
+)
 
 [2 <./figs/GthetaImpRes.png> <./figs/GthetaStepRes.png> <./figs/Fig3CLTFImpStep.png>] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  8E38033DC1D24E39DCDA03EC65082913;1006.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 8E38033DC1D24E39DCDA03EC65082913;1006.
  ) 
 Here is how much of TeX's memory you used:
- 12370 strings out of 473536
- 195414 string characters out of 5714956
- 615269 words of memory out of 5000000
- 35436 multiletter control sequences out of 15000+600000
- 564197 words of font info for 56 fonts, out of 8000000 for 9000
+ 12400 strings out of 473536
+ 196170 string characters out of 5714956
+ 617020 words of memory out of 5000000
+ 35455 multiletter control sequences out of 15000+600000
+ 564543 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,9n,93p,1404b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (2 pages, 282120 bytes).
+ 79i,9n,93p,1398b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (2 pages, 293344 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 125 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
