@@ -1,13 +1,15 @@
 # Fdb version 4
-["bibtex main"] 1743124260.7078 "main.aux" "main.bbl" "main" 1743124312.97597 0
-  "./references.bib" 1743124255 672 c8024c3639f3901a7fd74398b9205170 ""
+["bibtex main"] 1743125507.28184 "main.aux" "main.bbl" "main" 1743125511.29242 0
+  "./references.bib" 1743124880 691 c8024c3639f3901a7fd74398b9205170 ""
   "C:/Users/davem/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1743124311 2768 25129e5d439d130871a219dec834298a "pdflatex"
+  "main.aux" 1743125509 2768 25129e5d439d130871a219dec834298a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1743124309.43449 "c:/Users/davem/OneDrive - Queen's University Belfast/Documents/QUB/ELE2038_SignalsAndControl/H5/report/latex/main.tex" "main.pdf" "main" 1743124312.97674 0
+["pdflatex"] 1743125507.88322 "c:/Users/davem/OneDrive - Queen's University Belfast/Documents/QUB/ELE2038_SignalsAndControl/H5/report/latex/main.tex" "main.pdf" "main" 1743125511.2944 0
+  "../block_diagrams/ELE2038_H5_closedLoopBlockDiagram.drawio.jpg" 1743124880 32121 7d154a9541551c852027a881b09251fa ""
+  "../block_diagrams/ELE2038_H5_openLoopBlockDiagram.drawio.jpg" 1743124880 29164 5c1a1e86c9478d2576ef473d93af2d53 ""
   "C:/Users/davem/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1743120197 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/davem/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1738086369 12013393 fc1220c5b01dcb8059a6b6e88e3f24aa ""
   "C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233951848 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -102,16 +104,14 @@
   "C:/Users/davem/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/davem/AppData/Local/Programs/MiKTeX/tex/latex/tools/bm.sty" 1730400552 13236 1aba485b47e3c79a47dc0906cc971820 ""
   "C:/Users/davem/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/davem/OneDrive - Queen's University Belfast/Documents/QUB/ELE2038_SignalsAndControl/H5/report/latex/main.tex" 1743124307 10016 cfb5e7fcf098ef0075cb55f271958a77 ""
-  "figs/ELE2038_H5_closedLoopBlockDiagram.drawio.jpg" 1743120064 32121 7d154a9541551c852027a881b09251fa ""
-  "figs/ELE2038_H5_openLoopBlockDiagram.drawio.jpg" 1743120065 29164 5c1a1e86c9478d2576ef473d93af2d53 ""
-  "figs/Fig3CLTFImpStep.png" 1743120067 39031 97f44ae5c6f52a3668c373a1d5b5a2e9 ""
-  "figs/GthetaImpRes.png" 1743120071 43342 564130af9f5c5c1e21ff25887513bf92 ""
-  "figs/GthetaStepRes.png" 1743120073 25650 1502b425fe6316b12f8f3c829e382966 ""
-  "main.aux" 1743124311 2768 25129e5d439d130871a219dec834298a "pdflatex"
-  "main.bbl" 1743124261 1381 8496d5834638ceb542e98224746cb1f2 "bibtex main"
-  "main.out" 1743124311 1006 8e38033dc1d24e39dcda03ec65082913 "pdflatex"
-  "main.tex" 1743124307 10016 cfb5e7fcf098ef0075cb55f271958a77 ""
+  "c:/Users/davem/OneDrive - Queen's University Belfast/Documents/QUB/ELE2038_SignalsAndControl/H5/report/latex/main.tex" 1743125501 10161 1b021d2598361aefabae1364f4615624 ""
+  "figs/Fig3CLTFImpStep.png" 1743124880 39031 97f44ae5c6f52a3668c373a1d5b5a2e9 ""
+  "figs/GthetaImpRes.png" 1743124880 43342 564130af9f5c5c1e21ff25887513bf92 ""
+  "figs/GthetaStepRes.png" 1743124880 25650 1502b425fe6316b12f8f3c829e382966 ""
+  "main.aux" 1743125509 2768 25129e5d439d130871a219dec834298a "pdflatex"
+  "main.bbl" 1743125507 1381 8496d5834638ceb542e98224746cb1f2 "bibtex main"
+  "main.out" 1743125509 1006 8e38033dc1d24e39dcda03ec65082913 "pdflatex"
+  "main.tex" 1743125501 10161 1b021d2598361aefabae1364f4615624 ""
   (generated)
   "main.aux"
   "main.log"
