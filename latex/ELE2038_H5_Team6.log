@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.28)  27 MAR 2025 19:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.28)  27 MAR 2025 22:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -579,11 +579,11 @@ Package hyperref Info: Link coloring ON on input line 19.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(14.22636pt, 569.05515pt, 14.22636pt)
-* v-part:(T,H,B)=(14.22636pt, 802.36774pt, 28.45274pt)
+* v-part:(T,H,B)=(14.22636pt, 773.91498pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=569.05515pt
-* \textheight=802.36774pt
+* \textheight=773.91498pt
 * \oddsidemargin=-58.04362pt
 * \evensidemargin=-58.04362pt
 * \topmargin=-95.04362pt
@@ -629,16 +629,16 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
  (C:\Users\davem\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figs/ELE2038_H5_openLoopBlockDiagram.drawio.png, id=22, 610.28pt x 314.17375pt>
+<figs/ELE2038_H5_openLoopBlockDiagram.drawio.png, id=22, 612.2875pt x 314.17375pt>
 File: figs/ELE2038_H5_openLoopBlockDiagram.drawio.png Graphic file (type png)
 <use figs/ELE2038_H5_openLoopBlockDiagram.drawio.png>
 Package pdftex.def Info: figs/ELE2038_H5_openLoopBlockDiagram.drawio.png  used on input line 47.
-(pdftex.def)             Requested size: 284.52757pt x 146.48238pt.
-<figs/ELE2038_H5_closedLoopBlockDiagram.drawio.png, id=24, 784.9325pt x 374.39874pt>
+(pdftex.def)             Requested size: 284.52757pt x 145.9934pt.
+<figs/ELE2038_H5_closedLoopBlockDiagram.drawio.png, id=24, 812.03375pt x 374.39874pt>
 File: figs/ELE2038_H5_closedLoopBlockDiagram.drawio.png Graphic file (type png)
 <use figs/ELE2038_H5_closedLoopBlockDiagram.drawio.png>
 Package pdftex.def Info: figs/ELE2038_H5_closedLoopBlockDiagram.drawio.png  used on input line 53.
-(pdftex.def)             Requested size: 284.52757pt x 135.71463pt.
+(pdftex.def)             Requested size: 284.52757pt x 131.18434pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -668,16 +668,16 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 60.
 
-<figs/GthetaImpRes.png, id=25, 417.7206pt x 328.8285pt>
+<figs/GthetaImpRes.png, id=25, 417.7206pt x 330.2739pt>
 File: figs/GthetaImpRes.png Graphic file (type png)
 <use figs/GthetaImpRes.png>
 Package pdftex.def Info: figs/GthetaImpRes.png  used on input line 74.
-(pdftex.def)             Requested size: 284.52757pt x 223.97673pt.
-<figs/GthetaStepRes.png, id=26, 412.6617pt x 328.8285pt>
+(pdftex.def)             Requested size: 284.52757pt x 224.96123pt.
+<figs/GthetaStepRes.png, id=26, 412.6617pt x 330.2739pt>
 File: figs/GthetaStepRes.png Graphic file (type png)
 <use figs/GthetaStepRes.png>
 Package pdftex.def Info: figs/GthetaStepRes.png  used on input line 80.
-(pdftex.def)             Requested size: 284.52757pt x 226.72633pt.
+(pdftex.def)             Requested size: 284.52757pt x 227.72292pt.
 
 
 [1
@@ -690,23 +690,23 @@ LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `ELE2038_H5_Team6.out' has not changed.
-(rerunfilecheck)             Checksum: 6FF038C2957077DC70D34F23DACDC2D8;729.
+(rerunfilecheck)             Checksum: 81AEC8A0C21B49BA50488D2668F25EFB;711.
 Package logreq Info: Writing requests to 'ELE2038_H5_Team6.run.xml'.
 \openout1 = `ELE2038_H5_Team6.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19462 strings out of 473536
- 339011 string characters out of 5714956
- 1175955 words of memory out of 5000000
+ 19461 strings out of 473536
+ 338999 string characters out of 5714956
+ 1176954 words of memory out of 5000000
  42442 multiletter control sequences out of 15000+600000
  573778 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,9n,93p,916b,805s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,9n,93p,1508b,805s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/davem/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on ELE2038_H5_Team6.pdf (2 pages, 233396 bytes).
+Output written on ELE2038_H5_Team6.pdf (2 pages, 244902 bytes).
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 17 named destinations out of 1000 (max. 500000)
  53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
